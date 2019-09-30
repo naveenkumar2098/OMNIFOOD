@@ -56,7 +56,6 @@
         margin: 0 0 4% 0;
     }
     
-    
     .main-nav { display: none; }
     .mobile-nav-icon {display: inline-block;}
     
@@ -116,5 +115,29 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
+    
     .contact-form {width: 100%; }
+
+    .section-testimonials {
+    
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/back-customers-min.jpg);
+    
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/back-customers-min.jpg);
+        background-size: cover;
+        color: #fff;
+        background-position: center;
+        background-attachment: scroll;
+    
+    
+    }
+    header {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/hero-min.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/hero-min.jpg);
+        background-size: cover;
+      background-attachment: scroll;
+      
+        background-position: center;
+        height: 100vh;
+    
+    }
 }

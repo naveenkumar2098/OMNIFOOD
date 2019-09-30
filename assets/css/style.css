@@ -191,6 +191,9 @@ input[type=submit]:active {
     color: #fff;
 }
 
+.btn-submit {
+	background-color: #fff;
+}
 
 /* ----------------------------------------------- */
 /* HEADER */
@@ -611,27 +614,27 @@ footer {
     font-size: 160%;
 }
 
-.ion-social-facebook,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-googleplus,
+.ion-logo-instagram {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
-.ion-social-facebook:hover {
+.ion-logo-facebook:hover {
     color: #3b5998;
 }
 
-.ion-social-twitter:hover {
+.ion-logo-twitter:hover {
     color: #00aced;
 }
 
-.ion-social-googleplus:hover {
+.ion-logo-googleplus:hover {
     color: #dd4b39;
 }
 
-.ion-social-instagram:hover {
+.ion-logo-instagram:hover {
     color: #517fa4;
 }
 
@@ -659,6 +662,16 @@ footer p {
 .js--wp-4 {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
+}
+
+.js--wp-5 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.js--wp-6 {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
 }
 
 .js--wp-1.animated,
